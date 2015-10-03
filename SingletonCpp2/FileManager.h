@@ -27,7 +27,7 @@ public:
       return fmngr;
    }
 
-   shared_ptr<fstream> open()
+
 
    
 

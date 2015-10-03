@@ -76,12 +76,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Fichier.cpp" />
+    <ClCompile Include="ListeFichier.cpp" />
+    <ClCompile Include="NodeFichier.cpp" />
     <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fichier.h" />
+    <ClInclude Include="ListeFichier.h" />
+    <ClInclude Include="NodeFichier.h" />
     <ClInclude Include="FileManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
